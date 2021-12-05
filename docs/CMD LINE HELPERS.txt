@@ -1,0 +1,76 @@
+
+ts-node candy-machine-cli.ts upload C:\Users\Alex\Documents\GitHub\metaplex\config\assets --env devnet -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json --log-level trace 
+ts-node candy-machine-cli.ts create_candy_machine -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json -e devnet -p 1
+ts-node candy-machine-cli.ts update_existing_nfts_from_latest_cache_file --env devnet -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json -nc C:\Users\Alex\Documents\GitHub\metaplex\js\packages\cli\src\.cache\devnet-temp_new
+
+
+ts-node candy-machine-cli.ts upload C:\Users\Alex\Documents\GitHub\metaplex\config\assets --env mainnet-beta -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json --log-level trace -r https://quiet-rough-darkness.solana-mainnet.quiknode.pro/c7e01cfbf2be5476ff30f1b5884bb1386905dbc0/
+ts-node candy-machine-cli.ts mint_one_token -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json -e devnet
+
+custom rpc node: -r https://quiet-rough-darkness.solana-mainnet.quiknode.pro/c7e01cfbf2be5476ff30f1b5884bb1386905dbc0/
+
+ts-node candy-machine-cli.ts verify --env mainnet-beta -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json -r https://quiet-rough-darkness.solana-mainnet.quiknode.pro/c7e01cfbf2be5476ff30f1b5884bb1386905dbc0/
+
+ts-node candy-machine-cli.ts create_candy_machine -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json -e mainnet-beta -p 1
+
+ts-node candy-machine-cli.ts help update_candy_machine
+ts-node candy-machine-cli.ts update_candy_machine -k C:\Users\Alex\Documents\GitHub\metaplex\config\solana\AlexWallet.json -e mainnet-beta -d "01 Dec 2021 00:00:00" -p 1
+
+DEVNET CANDY MACHINE:
+candy machine pubkey: Awiv5uBNABHnPt2AZwxm5gkTwMQfR2c4Hq3BjgejkvzT
+wallet public key: 32fJkEcQxGFc6bnHnpSRGf7v9UTHrPZJVEtDCsfdE5Zo
+"config": "3zssrAfgAr16UP1S7hEUpYNPuXroEDpj9otw3oYY3nb1"
+timestamp: 1638259200
+
+
+MAINNET CANDY MACHINE:
+candy machine pubkey: HZpzPCjwCeyje13vR96AoiDscCyoGhx1B95ZK79DmHEU
+Config: GZwnU2Jbx85NHaH2TeBf9gpGPu9M56UYSUpMYUi7UXXp
+wallet public key: 32fJkEcQxGFc6bnHnpSRGf7v9UTHrPZJVEtDCsfdE5Zo
+timestamp: 1638345600
+
+REACT_APP_CANDY_MACHINE_CONFIG= 3zssrAfgAr16UP1S7hEUpYNPuXroEDpj9otw3oYY3nb1
+REACT_APP_CANDY_MACHINE_ID= Awiv5uBNABHnPt2AZwxm5gkTwMQfR2c4Hq3BjgejkvzT
+REACT_APP_TREASURY_ADDRESS= 32fJkEcQxGFc6bnHnpSRGf7v9UTHrPZJVEtDCsfdE5Zo
+REACT_APP_CANDY_START_DATE= 1638259200
+
+REACT_APP_SOLANA_NETWORK= devnet
+REACT_APP_SOLANA_RPC_HOST= https://explorer-api.devnet.solana.com
+
+C:\Users\Alex\Documents\GitHub\metaplex\config\solana\dev_wallet_4.json
+pubkey: 6xfqs7qrfYkHGbSRokuW7MqwadN5BmF1xpjZvggU8Cn6
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+toilet decade scrap curious dove method citizen scorpion pink nice genre dwarf
+
+
+Reece's Wallet:
+pubkey: DMmwFmk4hKyRe2RHLUQxdsQcrS4HTk8KZ3KWioytHNbD
+=========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+flush artwork slush like misery sense trust mean faint tissue path denial
+Private Key:
+[187,22,192,106,89,212,173,243,150,97,193,6,84,192,101,101,48,165,150,117,208,163,230,114,45,14,95,207,191,150,232,104,183,158,170,254,119,46,187,59,101,19,156,235,44,164,233,86,231,34,56,32,116,79,93,204,224,165,183,231,11,228,122,100]
+
+Alex's Wallet:
+pubkey: 32fJkEcQxGFc6bnHnpSRGf7v9UTHrPZJVEtDCsfdE5Zo
+=========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+egg tell feel airport upon board wreck balcony alone immense erupt office
+[201,141,138,165,214,172,51,169,116,233,1,187,137,99,86,206,178,73,36,64,120,186,118,128,124,229,90,22,190,207,95,238,30,36,68,112,165,213,1,170,216,69,54,24,152,94,84,168,169,152,76,100,167,160,86,30,76,168,233,67,2,231,166,6]
+
+
+Brian's Wallet:
+pubkey: 8R8pizrafqBYSXYkdXc1jhfkRD9T3N8GkgMNcEcNLwUw
+============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+door puzzle retreat talent smoke face chat enemy grit ability spatial tenant
+============================================================================
+[3,21,225,137,39,247,243,255,185,4,58,5,184,234,117,23,188,138,10,123,54,118,217,177,209,183,230,92,170,124,223,1,110,48,151,220,46,175,183,124,32,132,143,71,42,191,185,34,160,196,166,13,82,206,143,91,235,103,243,232,227,3,37,212]
+
+Shirin's wallet:
+pubkey: Aw1yoZi6ABmDYRVBjwRia1RYMUZaT7RKhAuY1fbn4rzH
+============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+reward frame question library alley deliver cage code scheme raw evoke cloud
+============================================================================
+[239,235,42,154,186,179,244,202,24,84,51,21,151,178,4,159,50,129,41,119,214,188,228,233,127,83,175,52,222,19,61,255,147,143,167,68,179,199,247,11,255,178,76,79,206,203,195,66,67,118,136,186,121,108,152,196,10,2,151,174,51,75,162,230]

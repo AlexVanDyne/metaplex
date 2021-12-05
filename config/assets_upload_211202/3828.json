@@ -1,0 +1,70 @@
+{
+  "name": "Rumble Realms #3828",
+  "symbol": "RMBL",
+  "description": "Deep in the Rekt Realms, these Rumblers have evolved to exist only on the meager small gains. They battle for dominance over the Metaverse. Humans, Zombies, Apes, Nethers, and Spirit Animials are all sworn enemies.",
+  "seller_fee_basis_points": 450,
+  "image": "image.png",
+  "external_url": "http://www.RumbleRealms.com/",
+  "edition": 3828,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Spirit Animal Realm"
+    },
+    {
+      "trait_type": "Nether Body",
+      "value": "Dark Skin"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "DogeShirtRekt"
+    },
+    {
+      "trait_type": "Body Damage",
+      "value": "Flawless"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Nether Hair Medium Cut"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dead Eyes"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Keep It Simple"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Unimpressed"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "32fJkEcQxGFc6bnHnpSRGf7v9UTHrPZJVEtDCsfdE5Zo",
+        "share": 25
+      },
+      {
+        "address": "DMmwFmk4hKyRe2RHLUQxdsQcrS4HTk8KZ3KWioytHNbD",
+        "share": 25
+      },
+      {
+        "address": "8R8pizrafqBYSXYkdXc1jhfkRD9T3N8GkgMNcEcNLwUw",
+        "share": 25
+      },
+      {
+        "address": "Aw1yoZi6ABmDYRVBjwRia1RYMUZaT7RKhAuY1fbn4rzH",
+        "share": 25
+      }
+    ]
+  }
+}

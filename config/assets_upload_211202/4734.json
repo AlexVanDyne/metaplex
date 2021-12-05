@@ -1,0 +1,58 @@
+{
+  "name": "Rumble Realms #4734",
+  "symbol": "RMBL",
+  "description": "Deep in the Rekt Realms, these Rumblers have evolved to exist only on the meager small gains. They battle for dominance over the Metaverse. Humans, Zombies, Apes, Nethers, and Spirit Animials are all sworn enemies.",
+  "seller_fee_basis_points": 450,
+  "image": "image.png",
+  "external_url": "http://www.RumbleRealms.com/",
+  "edition": 4734,
+  "attributes": [
+    {
+      "trait_type": "Global/Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Bogdanoff/Body",
+      "value": "Bogdanoff"
+    },
+    {
+      "trait_type": "Bogdanoff/Eyes",
+      "value": "Bogdanoff Pumpet"
+    },
+    {
+      "trait_type": "Bogdanoff/Clothing",
+      "value": "Bogdanoff Custom Gucci Suit"
+    },
+    {
+      "trait_type": "Bogdanoff/Mouth",
+      "value": "Lazer Mouth"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "32fJkEcQxGFc6bnHnpSRGf7v9UTHrPZJVEtDCsfdE5Zo",
+        "share": 25
+      },
+      {
+        "address": "DMmwFmk4hKyRe2RHLUQxdsQcrS4HTk8KZ3KWioytHNbD",
+        "share": 25
+      },
+      {
+        "address": "8R8pizrafqBYSXYkdXc1jhfkRD9T3N8GkgMNcEcNLwUw",
+        "share": 25
+      },
+      {
+        "address": "Aw1yoZi6ABmDYRVBjwRia1RYMUZaT7RKhAuY1fbn4rzH",
+        "share": 25
+      }
+    ]
+  }
+}
